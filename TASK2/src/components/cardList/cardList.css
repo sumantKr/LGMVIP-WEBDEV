@@ -1,0 +1,11 @@
+.card-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    height: auto;
+    margin: 40px auto;
+    font-size: 10px;
+    grid-gap:50px;
+}

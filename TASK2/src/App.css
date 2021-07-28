@@ -1,0 +1,38 @@
+.App {
+      background-color: #646464;
+      min-height: 100vh;
+      overflow-x: hidden;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+}
+
+.Heading{
+    width: 100vw;
+    height:3rem;
+    padding-top: 1rem;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Heading div{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Heading button{
+      padding: 10px 20px;
+      color: #282c34;
+      background: white;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;   
+      transition:all .5s ease;
+}
+.Heading button:hover{
+      background: rgb(0, 230, 0);
+}

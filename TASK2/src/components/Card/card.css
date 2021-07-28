@@ -1,0 +1,15 @@
+.card{
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    color: #4c76a0;
+    background: rgb(37, 44, 48);
+    border-radius:8px;
+    transition: transform .3s ease;
+}
+.card img{
+    margin-bottom: 10px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
